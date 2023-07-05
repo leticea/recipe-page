@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background-color: #feece0;
   overflow: hidden;
+  font-family: "source-serif-pro", serif;
 }
 
 .top {
@@ -46,7 +47,7 @@ picture img {
 }
 
 .buttons span,
-p {
+.buttons p {
   font-size: 3.5rem;
   color: #9b6647;
 }
@@ -64,4 +65,28 @@ button {
   gap: 6.4rem;
   padding: 6.4rem 5rem;
   background-color: #9b6647;
+  color: #feece0;
+}
+
+ul,
+ol {
+  padding-left: 3.8rem;
+}
+
+li {
+  font-size: 2.8rem;
+  font-family: "source-sans-pro", sans-serif;
+}
+
+.col1 > div,
+.col2 > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.col1 h1,
+.col2 h1 {
+  font-size: 3.8rem;
 }
