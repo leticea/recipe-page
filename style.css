@@ -17,7 +17,13 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5.6rem;
+  margin: 11.2rem 18rem 5.6rem 18rem;
   color: #58190a;
+}
+
+picture img {
+  width: 40.9rem;
+  height: 29.3rem;
 }
 
 .top h1 {
@@ -26,6 +32,11 @@ body {
 
 .top p {
   font-size: 3.8rem;
+  color: #58190a;
+}
+
+.info p {
+  padding: 3rem 0;
 }
 
 .buttons {
@@ -34,14 +45,23 @@ body {
   gap: 2rem;
 }
 
-.buttons span {
+.buttons span,
+p {
   font-size: 3.5rem;
-  color: #9B6647;
+  color: #9b6647;
 }
-
 
 button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  gap: 6.4rem;
+  padding: 6.4rem 5rem;
+  background-color: #9b6647;
 }
